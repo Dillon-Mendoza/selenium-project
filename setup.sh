@@ -13,13 +13,11 @@ unzip chromedriver-linux64.zip
 pip install --upgrade pip
 pip install selenium
 pip install webdriver-manager
-pip install pytest
-pip install pytest-selenium
 echo "Setup complete. You can now run your tests."
 # Deactivate the virtual environment
 deactivate
 echo "Virtual environment deactivated."
 # Clean up
 rm chromedriver-linux64.zip
-rm chromedriver
+# rm chromedriver
 echo "Temporary files removed."
